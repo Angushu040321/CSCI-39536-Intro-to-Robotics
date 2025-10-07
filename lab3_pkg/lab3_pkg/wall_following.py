@@ -17,7 +17,7 @@ class WallFollower(Node):
 
         # === PARAMETERS (FILL SOME) ===
         # Desired right-wall following distance (meters)
-        self.d_des = self.declare_parameter('desired_distance', 0.7).value  # e.g., 0.7
+        self.d_des = self.declare_parameter('desired_distance', 0.5).value  # e.g., 0.7
         # Lookahead distance L (meters)
         self.lookahead = self.declare_parameter('lookahead', 0.6).value     # e.g., 0.6
         # Beam separation angle theta (deg) for two-range geometry
@@ -25,8 +25,8 @@ class WallFollower(Node):
 
         # PID gains
         self.Kp = self.declare_parameter('Kp', 1.8).value  # e.g., 1.8
-        self.Ki = self.declare_parameter('Ki', 0).value  # e.g., 0.0 (start at 0)
-        self.Kd = self.declare_parameter('Kd', 0.2).value  # e.g., 0.2
+        self.Ki = self.declare_parameter('Ki', 0).value  # 
+        self.Kd = self.declare_parameter('Kd', 0.2).value  # e.g., 0. 2
 
         # Speed schedule based on |steer|
         self.v_fast = self.declare_parameter('v_fast', 0.35).value
