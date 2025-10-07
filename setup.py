@@ -24,6 +24,7 @@ setup(
         'plot_odom = lab3_pkg.plot_odom:main',
         'square = lab3_pkg.square:main',
         'pd_controller = lab3_pkg.pd_controller:main',
+        'wall_following = lab3_pkg.wall_following:main',
 
         ],
     },
