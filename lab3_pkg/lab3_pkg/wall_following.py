@@ -17,16 +17,16 @@ class WallFollower(Node):
 
         # === PARAMETERS (FILL SOME) ===
         # Desired right-wall following distance (meters)
-        self.d_des = self.declare_parameter('desired_distance', 0.5).value  # e.g., 0.7
+        self.d_des = self.declare_parameter('desired_distance', 0.3).value  # changed to .3 so the bots sticks to the wall more closely 
         # Lookahead distance L (meters)
-        self.lookahead = self.declare_parameter('lookahead', 0.6).value     # e.g., 0.6
+        self.lookahead = self.declare_parameter('lookahead', 0.2).value     # making sure that the bot is not looking too far ahead to make wrong judgements
         # Beam separation angle theta (deg) for two-range geometry
         self.theta_deg = self.declare_parameter('theta_deg', 50.0).value
 
         # PID gains
-        self.Kp = self.declare_parameter('Kp', 1.8).value  # e.g., 1.8
-        self.Ki = self.declare_parameter('Ki', 0).value  # 
-        self.Kd = self.declare_parameter('Kd', 0.2).value  # e.g., 0. 2
+        self.Kp = self.declare_parameter('Kp', 3).value  # change to 3 so the bots become more aggressive since we have smaller distance to cover
+        self.Ki = self.declare_parameter('Ki', 0).value  # e.g., 0.0 (start at 0)
+        self.Kd = self.declare_parameter('Kd', 0.2).value  # e.g., 0.2
 
         # Speed schedule based on |steer|
         self.v_fast = self.declare_parameter('v_fast', 0.35).value
