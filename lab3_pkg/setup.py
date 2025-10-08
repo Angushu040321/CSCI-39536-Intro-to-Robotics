@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+from glob import glob
+import os
 
 package_name = 'lab3_pkg'
 
@@ -10,6 +12,9 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', 
+glob('launch/*.launch.py')),
+        ('share/' + package_name + '/config', glob('config/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -25,7 +30,8 @@ setup(
         'square = lab3_pkg.square:main',
         'pd_controller = lab3_pkg.pd_controller:main',
         'wall_following = lab3_pkg.wall_following:main',
-
+        'compare_logger = lab3_pkg.compare_logger:main',
+        'compare_plot = lab3_pkg.compare_plot:main',
         ],
     },
 )
