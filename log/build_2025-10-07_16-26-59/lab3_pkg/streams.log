@@ -1,0 +1,25 @@
+[0.350s] Invoking command in '/home/angushu/CSCI-39536-Intro-to-Robotics': PYTHONPATH=/home/angushu/CSCI-39536-Intro-to-Robotics/build/lab3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab3_pkg build --build-base /home/angushu/CSCI-39536-Intro-to-Robotics/build/lab3_pkg/build install --record /home/angushu/CSCI-39536-Intro-to-Robotics/build/lab3_pkg/install.log --single-version-externally-managed install_data
+[0.445s] running egg_info
+[0.451s] writing build/lab3_pkg/lab3_pkg.egg-info/PKG-INFO
+[0.452s] writing dependency_links to build/lab3_pkg/lab3_pkg.egg-info/dependency_links.txt
+[0.452s] writing entry points to build/lab3_pkg/lab3_pkg.egg-info/entry_points.txt
+[0.452s] writing requirements to build/lab3_pkg/lab3_pkg.egg-info/requires.txt
+[0.453s] writing top-level names to build/lab3_pkg/lab3_pkg.egg-info/top_level.txt
+[0.464s] reading manifest file 'build/lab3_pkg/lab3_pkg.egg-info/SOURCES.txt'
+[0.464s] writing manifest file 'build/lab3_pkg/lab3_pkg.egg-info/SOURCES.txt'
+[0.464s] running build
+[0.464s] running build_py
+[0.464s] running install
+[0.467s] running install_lib
+[0.473s] running install_data
+[0.473s] running install_egg_info
+[0.479s] removing '/home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/lib/python3.12/site-packages/lab3_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.479s] Copying build/lab3_pkg/lab3_pkg.egg-info to /home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/lib/python3.12/site-packages/lab3_pkg-0.0.0-py3.12.egg-info
+[0.480s] running install_scripts
+[0.532s] Installing odom_logger script to /home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/bin
+[0.532s] Installing pd_controller script to /home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/bin
+[0.532s] Installing plot_odom script to /home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/bin
+[0.532s] Installing square script to /home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/bin
+[0.532s] Installing wall_following script to /home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/bin
+[0.533s] writing list of installed files to '/home/angushu/CSCI-39536-Intro-to-Robotics/build/lab3_pkg/install.log'
+[0.547s] Invoked command in '/home/angushu/CSCI-39536-Intro-to-Robotics' returned '0': PYTHONPATH=/home/angushu/CSCI-39536-Intro-to-Robotics/build/lab3_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/angushu/CSCI-39536-Intro-to-Robotics/install/lab3_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lab3_pkg build --build-base /home/angushu/CSCI-39536-Intro-to-Robotics/build/lab3_pkg/build install --record /home/angushu/CSCI-39536-Intro-to-Robotics/build/lab3_pkg/install.log --single-version-externally-managed install_data
