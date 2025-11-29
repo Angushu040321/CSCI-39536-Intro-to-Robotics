@@ -1,0 +1,7 @@
+Task 6 Results
+
+Color detection: 0.0%
+MobileNet-SSD: 56.1%
+
+Colorbased is faster but sensitive to lighting
+MobileNet SSD is robuster but slower
